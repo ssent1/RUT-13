@@ -1,0 +1,53 @@
+/*----------------------------------------------------
+             Equator - No Script CSS File
+------------------------------------------------------*/
+
+/* heading */
+h1{font-size:34px;color:#3c3c3c;margin-bottom:15px;line-height:26px;font-weight:lighter;}
+h2{font-size:28px;color:#3c3c3c;margin-bottom:15px;line-height:24px;font-weight:lighter;}
+h3{font-size:24px;color:#3c3c3c;margin-bottom:15px;line-height:20px;font-weight:lighter;}
+h4{font-size:18px;color:#3c3c3c;margin-bottom:15px;line-height:18px;font-weight:lighter;}
+h5{font-size:16px;color:#3c3c3c;margin-bottom:15px;line-height:16px;font-weight:lighter;}
+h6{font-size:14px;color:#3c3c3c;margin-bottom:15px;line-height:16px;font-weight:lighter;}
+
+
+/* SLIDESHOW
+------------------------------------------------------*/
+#slideshow ul {
+	display:none;
+}
+#slideshow {
+	width:960px;
+	height:369px;
+	background:url(../images-rut13/slide4.jpg) center center no-repeat;
+}
+#shadow-noscript{
+	width:960px;
+	height:14px;
+	background-image:url(../images-rut13/shadow-big.png);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	float:left;
+	display:block;
+}
+
+
+/* 404 PAGE
+------------------------------------------------------*/
+.heading-404{
+	font-size:200px;
+	margin:75px 0px 70px 0px;
+	text-align:center;
+}
+.heading2-404{
+	font-size:47px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+
+/* PDF DOWNLOAD
+------------------------------------------------------*/
+.pdf-download h6{
+	font-size:13px;
+}
