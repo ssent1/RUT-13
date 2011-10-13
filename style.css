@@ -422,14 +422,8 @@ p#vtip {
      float: left;
 }
 
-#mainmenu ul li a:hover {
+#mainmenu ul li a:hover, #mainmenu ul li.current a {
      color: #6B6B6A;
-     font-weight: bold;
-     text-decoration: none;
-}
-
-#mainmenu ul li.current a {
-     color: #946436;
      font-weight: bold;
      text-decoration: none;
 }

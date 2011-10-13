@@ -1,17 +1,18 @@
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <title>Organic Hair Therapy - RUT 13</title><!-- ////////////////////////////////// -->
+    <title>Organic Hair Therapy Products - RUT 13</title><!-- ////////////////////////////////// -->
     <!-- //      Start Stylesheets       // -->
     <!-- ////////////////////////////////// -->
     <link href="./css/reset.css" rel="stylesheet" type="text/css" />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
-    <link href="./css/noscript.css" rel="stylesheet" type="text/css" media="screen,all" id="noscript" /><!-- ////////////////////////////////// -->
+    <link href="./css/colorbox.css" rel="stylesheet" type="text/css" media="screen" /><!-- ////////////////////////////////// -->
     <!-- //      Javascript Files        // -->
     <!-- ////////////////////////////////// -->
 
+    <script type="text/javascript" src="http://themedemo.indonez.com/equator/js/jquery-1.4.2.js">
+</script>
     <script type="text/javascript" src="./js/jquery.min.js">
 </script>
     <script type="text/javascript" src="./js/scroll.js">
@@ -29,34 +30,57 @@
             ;
     //]]>
     </script>
-    <script src="./js/vtip.js" type="text/javascript">
-</script>
-    <script src="./js/jquery.cycle.all.js" type="text/javascript">
+    <script type="text/javascript" src="./js/jquery.colorbox.js">
 </script>
     <script type="text/javascript">
 //<![CDATA[
-    $(function(){     
-         $('#slideshow ul').cycle({
-            timeout: 5000,  // milliseconds between slide transitions (0 to disable auto advance)
-            fx:      'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...            
-            pager:   '#pager',  // selector for element to use as pager container
-            pause:   0,   // true to enable "pause on hover"
-            cleartypeNoBg: true, // set to true to disable extra cleartype fixing (leave false to force background color setting on slides)
-            pauseOnPagerHover: 0 // true to pause when hovering over pager link
-        });
-     });
+    $(document).ready(function(){               
+        $("a[rel='portfolio']").colorbox({transition:"fade"});              
+    });
     //]]>
     </script>
+    <script type="text/javascript">
+//<![CDATA[
+    $(document).ready(function() {
+
+    //move the image in pixel
+    var move = -15;
+
+    //zoom percentage, 1.2 =120%
+    var zoom = 1.2;
+
+    //On mouse over those thumbnail
+    $('.item, .item-last').hover(function() {
+        
+        //Set the width and height according to the zoom percentage
+        width = $('.item, .item-last').width() * zoom;
+        height = $('.item, .item-last').height() * zoom;
+        
+        //Move and zoom the image
+        $(this).find('img').stop(false,true).animate({'width':width, 'height':height, 'top':move, 'left':move}, {duration:200});
+        
+        //Display the caption
+        $(this).find('div.caption').stop(false,true).fadeIn(200);
+    },
+    function() {
+        //Reset the image
+        $(this).find('img').stop(false,true).animate({'width':$('.item, .item-last').width(), 'height':$('.item, .item-last').height(), 'top':'0', 'left':'0'}, {duration:100});    
+
+        //Hide the caption
+        $(this).find('div.caption').stop(false,true).fadeOut(200);
+    });
+
+    });
+    //]]>
+    </script>
+    <script src="./js/vtip.js" type="text/javascript">
+</script>
     <script type="text/javascript" src="./js/dropdown.js">
 </script><!--[if IE 7]>    
     <style type="text/css">
         ul.list-bottom{width:166px;}
-    </style>
-<![endif]-->
-    <!--[if IE 8]>    
-    <style type="text/css">
-        #pager{margin:-69px 0px 0px 22px;}
-        </style>    
+        #page-title-inner h1{margin-top:34px;}  
+    </style>    
 <![endif]-->
     <meta charset="UTF-8" />
 </head>
@@ -69,7 +93,7 @@
             <!-- begin of logo -->
 
             <div id="logo">
-                <a href="./index.html"><img src="./images-rut13/logo.png" alt="RUT 13 Logo" /></a>
+                <a href="./index.html"><img src="./images-rut13/logo.png" alt="" /></a>
             </div><!-- end of logo -->
             <!-- begin of quote -->
 
@@ -79,11 +103,9 @@
         </div>
 
         <div id="menu-search">
-            <!-- begin of mainmenu -->
-
             <div id="mainmenu">
                 <ul id="menu">
-                    <li class="current"><a href="index.html"><img src="images-rut13/home.png" alt="" /></a></li>
+                    <li class="current"><a href="./index.html"><img src="./images-rut13/home.png" alt="" /></a></li>
 
                     <li>
                         <a href="products-1.html">Products</a>
@@ -109,7 +131,6 @@
                         </ul>
                     </li>
 
-
                     <li><a href="./#">Styles</a></li>
 
                     <li><a href="./#">Salons</a></li>
@@ -117,7 +138,6 @@
                     <li><a href="./#">RUT 13</a></li>
 
                     <li><a href="./#">Contact</a></li>
-
                 </ul>
             </div><!-- end of mainmenu -->
             <!-- begin of search -->
@@ -129,33 +149,85 @@
                     </fieldset>
                 </form>
             </div><!-- end of search -->
-        </div><!-- begin of slideshow -->
+        </div><!-- END OF HEADER -->
+        <!-- BEGIN OF CONTENT -->
 
-        <div id="slideshow">
-            <ul>
-                <li class="slide-type1"><img src="./images-rut13/slide1.png" alt="slide1" /> <!--                    <h1>Elegant &amp; Simple</h1> -->
-                <!--                        <h3>It's a Equator HTML Template</h3> --></li>
+        <div id="content">
+            <div class="maincontent-inner">
+                <!-- begin of content-fullwidth -->
 
-                <li class="slide-type2"><img src="images-rut13/slide2.jpg" alt="slide2" height="480" /> <span class="slidetext">Whether you're in the chair or behind the chair, use RUT 13 for professional organic hair therapy!</span></li>
+                <div id="content-fullwidth">
+                    <div class="item">
+                        <img src="images-rut13/pre-styling-tonic.jpg" alt="pre-styling-tonic" width="220" height="400" title="Pre-Styling Tonic Product Details" /> <img src="images-rut13/pre-styling-tonic.jpg" alt="amplifying-shampoo" width="220" height="400" align="right" />
 
-                <li class="slide-type3"><img src="./images-rut13/slide3.jpg" alt="slide2" /> <!--                     <h1>Available on 5 Color</h1> -->
-                 <!-- <p>Nam libero tempore cum soluta nobis eligendi optio cumque nihil impedit quo minus id quo maxime placeat facere possimus, omnis volup assumenda omnis dolor repellendus temo ribus autem quibus dam aut officiis debitisa rerum necessitatibus saepe eveniet voluptat repudiandae sint et molestiae nore cusanda earum rerum hica tenetur sapiente delectus</p> -->
-                <!--                     <span class="slide-button"><a class="button" href="#">Read more</a></span> --></li>
+                        <div class="caption">
+                            <div class="pf-title">
+                                Pre-Styling Tonic
+                            </div>
 
-                <li class="slide-type4"><img src="./images-rut13/slide4.jpg" alt="slide2" /></li>
-            </ul>
+                            <div class="pf-subtitle">
+                                Natural and Organic
+                            </div>
 
-            <div id="pager">
-                &nbsp;
+                            <p>Infused with Hemp Seed Oil containing all twenty known amino acids, this fortifying tonic balances pH by shutting down cuticles and sealing in moisture. Great for all hair types to smooth, repair and prepare hair for styling.</p><a href="pre-styling-tonic.html" rel="portfolio" title="Pre-Styling Tonic Product Details">Pre-Styling Tonic</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="images-rut13/wearable-treatment.jpg" alt="wearable-treatment" width="220" height="400" title="Leave-In Wearable Treatment Product Details" align="right" />
+
+                        <div class="caption">
+                            <div class="pf-title">
+                                Leave-In Wearable Treatment
+                            </div>
+
+                            <div class="pf-subtitle">
+                                Natural and Organic
+                            </div>
+
+                            <p>An amazing all-in-one product. R.U.T. 13 Leave-In Wearable Treatment is a weightless formulation complimented with Fractionated Coconut Oil and Aloe Vera Oil improving hydration, encouraging cell rejuvenation and Golden Seal adding shine and helping to seal in moisture.</p><a href="wearable-treatment.html" rel="portfolio" title="Leave-In Wearable Treatment Product Details">Leave-In Wearable Treatment</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="images-rut13/amplifier.jpg" alt="amplifier" width="220" height="400" title="Amplifier Product Details" align="right" />
+
+                        <div class="caption">
+                            <div class="pf-title">
+                                Amplifier
+                            </div>
+
+                            <div class="pf-subtitle">
+                                Natural and Organic
+                            </div>
+
+                            <p>R.U.T. 13 Amplifier creates incredible body and root-lifting while providing flexible hold. Increases the hair’s diameter resulting in fuller, thicker hair. A truly
+versatile product that can be used on all hair types: wet or dry, short or long, fine or thick. Natural extracts of Macadamia Nut Oil provide one of the highest concentration of Omega-7 fatty acid.</p><a href="amplifier.html" rel="portfolio" title="Amplifier Product Details">Amplifier</a>
+                        </div>
+                    </div>
+
+                    <div class="item-last">
+                        <img src="images-rut13/straight-glaze.jpg" alt="Straight Glaze" width="220" height="400" title="Straight Glaze" align="right" />
+
+                        <div class="caption">
+                            <div class="pf-title">
+                                Straight Glaze
+                            </div>
+
+                            <div class="pf-subtitle">
+                                Natural and Organic
+                            </div>
+
+                            <p>A delicate straightening lotion that naturally relaxes hair for a straighter, smoother finish. R.U.T. 13 Straight Glaze calms the hair for a softer and straight finish with a blend of Fractionated Coconut Oil and Avocado Oil.</p><a href="straight-glaze.html" rel="portfolio" title="Straight Glaze Product Details">Straight Glaze</a>
+                        </div>
+                    </div>
+
+                    <div class="pf-pagination">
+                        <a class="button" href="products-1.html">Page 1 of 3</a><a class="button" href="products-3.html">Page 3 of 3</a><a class="button" href="store.html">Buy Now</a>
+                    </div>
+                </div><!-- end of content-fullwidth -->
             </div>
-        </div>
-
-        <div id="shadow-noscript"></div><!-- end of slideshow -->
-        <!-- begin of welcome text -->
-
-        <div id="page-title">
-            <h1>RUT 13 Organic Hair Therapy</h1>
-        </div><!-- end of welcome text --><!-- END OF HEADER -->
+        </div><!-- END OF CONTENT -->
         <!-- BEGIN OF BOTTOM CONTENT -->
 
         <div id="bottom-content">
