@@ -797,7 +797,7 @@ ul.client-list li {
 	background-color:#DDD;
 	float:left;
 	margin-bottom:40px;
-	padding:18px 20px 8px;
+	padding:18px 20px 8px 20px;
 	width:280px
 }
 
@@ -1080,9 +1080,9 @@ ul.social-list li {
 	background-position:center top;
 	background-repeat:repeat-x;
 	float:left;
-	margin:-5px 0 0 58px;
+	margin:-5px 0 0 5px;
 	padding:16px 0 12px;
-	width:222px
+	width:250px
 }
 
 .faq-contact h5 {

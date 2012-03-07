@@ -101,7 +101,7 @@ function showLoginPasswordProtect($error_msg) {
   <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
   <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
 
-    <title>Distributors - R.U.T. 13 Organic Hair Therapy [Restricted Access]</title>
+    <title>Distributors | R.U.T. 13 Organic Hair Therapy [Restricted Access]</title>
     
     <!-- ////////////////////////////////// -->
     <!-- //      Start Stylesheets       // -->
@@ -210,9 +210,9 @@ function showLoginPasswordProtect($error_msg) {
                         </ul>
                     </li>
 
-                    <li><a href="./#">Styles</a></li>
+                    <li><a href="./testimonials.html">Why R.U.T. 13?</a></li>
 
-                    <li><a href="./#">Salons</a></li>
+                    <li><a href="./rut13-salons.html">Salons</a></li>
 
                     <li><a href="./rut-13.html">R.U.T. 13</a></li>
 
