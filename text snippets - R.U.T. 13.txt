@@ -9,7 +9,7 @@
     <p>At RUT 13, we love hair! Healthy, shiny, happy hair! Hair that makes you want to touch it. Hair that makes you smile. Hair that makes you stand taller. Hair that gives you the confidence to do anything! Hair is part of your unique beauty. We hope our products help you show your beauty everyday."
     <p>
 
-    <p>We think we've created what could possibly be the best haircare &ndash; ever! We asked our chemists to remove the junk. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therapy.</p>
+    <p>We think we've created what could possibly be the best hair care &ndash; ever! We asked our chemists to remove the junk. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therapy.</p>
 
     <p>You'll love R.U.T. 13 Organic Hair Therapy. We guarantee it.</p>
 </body>
@@ -18,7 +18,7 @@
 
 
  <p>At RUT 13, we love hair! Healthy, shiny, happy hair! Hair that makes you want to touch it. Hair that makes you smile. Hair that makes you stand taller. Hair that gives you the confidence to:<ul><li>"Go faster than a speeding bullet.</li><li>Be more powerful than a locomotive.</li><li>Leap tall buildings in a single bound </li></ul> Hair that makes you uniquely beautiful. This is the way you often feel when you leave your favorite salon. We weren't satisfied with the results that we were getting from other salon professional products. Our goal was simple, "create a line of products that would give you beautiful hair everyday."</p>
-                    <p>We think we've created what could possibly be the best haircare &ndash; ever! We asked our chemists to remove the junk that still clutters salon professional products. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therpay.</p>
+                    <p>We think we've created what could possibly be the best hair care &ndash; ever! We asked our chemists to remove the junk that still clutters salon professional products. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therpay.</p>
                     <p>We are committed to following the best practices</p>
 
 

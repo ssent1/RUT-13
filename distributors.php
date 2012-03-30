@@ -1,10 +1,11 @@
 <?php include("./php/password_protect.php"); ?><?php
 echo "All information in the distributors section is confidential.";
 ?>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>Organic Hair Therapy | R.U.T. 13</title><!-- ////////////////////////////////// -->
     <!-- //      Start Stylesheets       // -->
@@ -89,32 +90,32 @@ echo "All information in the distributors section is confidential.";
                     <li class="current"><a href="index.html"><img src="images-rut13/home.png" alt="" /></a></li>
 
                     <li>
-                        <a href="./distributors/products-1-distributors.html">Products</a>
+                        <a href="./distributors/products-1.html">Products</a>
 
                         <ul>
                             <!-- <li><a href="#">Curly Hair</a></li> -->
 
-                            <li><a href="./distributors/amplifier-distributors.html">Amplifier</a></li>
+                            <li><a href="./distributors/amplifier.html">Amplifier</a></li>
 
-                            <li><a href="./distributors/amplifying-shampoo-distributors.html">Amplifying Shampoo</a></li>
+                            <li><a href="./distributors/amplifying-shampoo.html">Amplifying Shampoo</a></li>
 
-                            <li><a href="./distributors/amplifying-conditioner-distributors.html">Amplifying Conditioner</a></li>
+                            <li><a href="./distributors/amplifying-conditioner.html">Amplifying Conditioner</a></li>
 
-                            <li><a href="./distributors/hydrating-shampoo-distributors.html">Daily Hydrating Shampoo</a></li>
+                            <li><a href="./distributors/hydrating-shampoo.html">Daily Hydrating Shampoo</a></li>
 
-                            <li><a href="./distributors/hydrating-conditioner-distributors.html">Daily Hydrating Conditioner</a></li>
+                            <li><a href="./distributors/hydrating-conditioner.html">Daily Hydrating Conditioner</a></li>
 
-                            <li><a href="./distributors/leave-in-wearable-treatment-distributors.html">Leave-In Wearable Treatment</a></li>
+                            <li><a href="./distributors/leave-in-wearable-treatment.html">Leave-In Wearable Treatment</a></li>
 
-                            <li><a href="./distributors/optimum-root-lifter-distributors.html">Optimum Root Lifter</a></li>
+                            <li><a href="./distributors/optimum-root-lifter.html">Optimum Root Lifter</a></li>
 
-                            <li><a href="./distributors/pre-styling-tonic-distributors.html">Pre-styling Tonic</a></li>
+                            <li><a href="./distributors/pre-styling-tonic.html">Pre-styling Tonic</a></li>
 
-                            <li><a href="./distributors/sculpting-polisher-distributors.html">Sculpting Polisher</a></li>
+                            <li><a href="./distributors/sculpting-polisher.html">Sculpting Polisher</a></li>
 
-                            <li><a href="./distributors/straight-glaze-distributors.html">Straight Glaze</a></li>
+                            <li><a href="./distributors/straight-glaze.html">Straight Glaze</a></li>
 
-                            <li><a href="./distributors/stronghold-texturizer-distributors.html">Stronghold Texturizer</a></li>
+                            <li><a href="./distributors/stronghold-texturizer.html">Stronghold Texturizer</a></li>
                         </ul>
                     </li>
 
@@ -152,7 +153,7 @@ echo "All information in the distributors section is confidential.";
                 <li class="slide-type1"><img src="./images-rut13/slide1.png" alt="slide1" /> <!--                    <h1>Elegant &amp; Simple</h1> -->
                  <!--                        <h3>It's a Equator HTML Template</h3> --></li>
 
-                <li class="slide-type2"><img src="images-rut13/slide2.jpg" alt="slide2" height="480" /> <span class="slidetext">Whether you're in the chair or behind the chair, use R<font color="#946436">.</font>U<font color="#946436">.</font>T<font color="#946436">.</font> 13 for professional organic hair therapy!</span></li>
+                <li class="slide-type2"><img src="images-rut13/slide2.jpg" alt="slide2" height="480" /> <span class="slidetext">Whether you're in the chair or behind the chair, use <font color="#000">R</font><font color="#946436">.</font><font color="#000">U</font><font color="#946436">.</font><font color="#000">T</font><font color="#946436">.</font><font color="#000">13</font> for professional organic hair therapy!</span></li>
 
                 <li class="slide-type3"><img src="./images-rut13/slide3.jpg" alt="slide2" /> <!--                     <h1>Available on 5 Color</h1> -->
                  <!-- <p>Nam libero tempore cum soluta nobis eligendi optio cumque nihil impedit quo minus id quo maxime placeat facere possimus, omnis volup assumenda omnis dolor repellendus temo ribus autem quibus dam aut officiis debitisa rerum necessitatibus saepe eveniet voluptat repudiandae sint et molestiae nore cusanda earum rerum hica tenetur sapiente delectus</p> -->
@@ -205,27 +206,27 @@ echo "All information in the distributors section is confidential.";
                     <ul class="list-bottom">
                         <!-- <li><a href="#">Curly Hair</a></li> -->
 
-                        <li><a href="./distributors/amplifier-distributors.html">Amplifier</a></li>
+                        <li><a href="./distributors/amplifier.html">Amplifier</a></li>
 
-                        <li><a href="./distributors/amplifying-shampoo-distributors.html">Amplifying Shampoo</a></li>
+                        <li><a href="./distributors/amplifying-shampoo.html">Amplifying Shampoo</a></li>
 
-                        <li><a href="./distributors/amplifying-conditioner-distributors.html">Amplifying Conditioner</a></li>
+                        <li><a href="./distributors/amplifying-conditioner.html">Amplifying Conditioner</a></li>
 
-                        <li><a href="./distributors/hydrating-shampoo-distributors.html">Daily Hydrating Shampoo</a></li>
+                        <li><a href="./distributors/hydrating-shampoo.html">Daily Hydrating Shampoo</a></li>
 
-                        <li><a href="./distributors/hydrating-conditioner-distributors.html">Daily Hydrating Conditioner</a></li>
+                        <li><a href="./distributors/hydrating-conditioner.html">Daily Hydrating Conditioner</a></li>
 
-                        <li><a href="./distributors/leave-in-wearable-treatment-distributors.html">Leave-In Wearable Treatment</a></li>
+                        <li><a href="./distributors/leave-in-wearable-treatment.html">Leave-In Wearable Treatment</a></li>
 
-                        <li><a href="./distributors/optimum-root-lifter-distributors.html">Optimum Root Lifter</a></li>
+                        <li><a href="./distributors/optimum-root-lifter.html">Optimum Root Lifter</a></li>
 
-                        <li><a href="./distributors/pre-styling-tonic-distributors.html">Pre-styling Tonic</a></li>
+                        <li><a href="./distributors/pre-styling-tonic.html">Pre-styling Tonic</a></li>
 
-                        <li><a href="./distributors/sculpting-polisher-distributors.html">Sculpting Polisher</a></li>
+                        <li><a href="./distributors/sculpting-polisher.html">Sculpting Polisher</a></li>
 
-                        <li><a href="./distributors/straight-glaze-distributors.html">Straight Glaze</a></li>
+                        <li><a href="./distributors/straight-glaze.html">Straight Glaze</a></li>
 
-                        <li><a href="./distributors/stronghold-texturizer-distributors.html">Stronghold Texturizer</a></li>
+                        <li><a href="./distributors/stronghold-texturizer.html">Stronghold Texturizer</a></li>
                     </ul>
                 </div>
 
@@ -254,7 +255,7 @@ echo "All information in the distributors section is confidential.";
 
                     <p></p>
 
-                    <p>We think we've created what could possibly be the best haircare &ndash; ever! We asked our chemists to remove the junk. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therapy. You'll love <font color="#000"><font color="#000"><font color="#000"><font color="#000">R.U.T. 13</font></font></font></font> Organic Hair Therapy. We guarantee it.</p><!-- <h3 class="social-heading">Connect</h3> -->
+                    <p>We think we've created what could possibly be the best hair care &ndash; ever! We asked our chemists to remove the junk. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therapy. You'll love <font color="#000"><font color="#000"><font color="#000"><font color="#000">R.U.T. 13</font></font></font></font> Organic Hair Therapy. We guarantee it.</p><!-- <h3 class="social-heading">Connect</h3> -->
                     <!-- <ul class="social-list"> -->
                     <!-- <li><a href="#" title="Subscribe our RSS" class="vtip"><img src="./images-rut13/rss.png" alt="" /></a></li> -->
                     <!-- <li><a href="#" title="Join our Facebook" class="vtip"><img src="./images-rut13/fb.png" alt="" /></a></li> -->

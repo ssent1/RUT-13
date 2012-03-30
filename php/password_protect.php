@@ -95,7 +95,8 @@ if(!function_exists('showLoginPasswordProtect')) {
 // show login form
 function showLoginPasswordProtect($error_msg) {
 ?>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
@@ -325,7 +326,7 @@ function showLoginPasswordProtect($error_msg) {
 
                 <p></p>
 
-                <p>We think we've created what could possibly be the best haircare &ndash; ever! We asked our chemists to remove the junk. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therapy. You'll love <font color="#000"><font color="#000"><font color="#000"><font color="#000">R.U.T. 13</font></font></font></font> Organic Hair Therapy. We guarantee it.</p><!-- <h3 class="social-heading">Connect</h3> -->
+                <p>We think we've created what could possibly be the best hair care &ndash; ever! We asked our chemists to remove the junk. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therapy. You'll love <font color="#000"><font color="#000"><font color="#000"><font color="#000">R.U.T. 13</font></font></font></font> Organic Hair Therapy. We guarantee it.</p><!-- <h3 class="social-heading">Connect</h3> -->
                 <!-- <ul class="social-list"> -->
                 <!-- <li><a href="#" title="Subscribe our RSS" class="vtip"><img src="./images-rut13/rss.png" alt="" /></a></li> -->
                 <!-- <li><a href="#" title="Join our Facebook" class="vtip"><img src="./images-rut13/fb.png" alt="" /></a></li> -->

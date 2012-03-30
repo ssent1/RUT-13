@@ -1,9 +1,13 @@
+<?php include("./php/password_protect.php"); ?><?php
+echo "All information in the distributors section is confidential.";
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <title>Pre-Styling Tonic | R.U.T. 13 Organic Hair Therapy</title><!-- ////////////////////////////////// -->
+    <title>Organic Hair Therapy | R.U.T. 13</title><!-- ////////////////////////////////// -->
     <!-- //      Start Stylesheets       // -->
     <!-- ////////////////////////////////// -->
     <link href="./css/reset.css" rel="stylesheet" type="text/css" />
@@ -23,7 +27,7 @@
     <script type="text/javascript">
 //<![CDATA[
             Cufon.replace('h1') ('h2') ('h3') ('h4') ('h5') ('h6') ('.big-quote')
-            ('.button', { 
+            ('.button', {
                 hover: true
              })
             ;
@@ -35,10 +39,10 @@
 </script>
     <script type="text/javascript">
 //<![CDATA[
-    $(function(){     
+    $(function(){
          $('#slideshow ul').cycle({
             timeout: 5000,  // milliseconds between slide transitions (0 to disable auto advance)
-            fx:      'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...            
+            fx:      'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
             pager:   '#pager',  // selector for element to use as pager container
             pause:   0,   // true to enable "pause on hover"
             cleartypeNoBg: true, // set to true to disable extra cleartype fixing (leave false to force background color setting on slides)
@@ -48,19 +52,17 @@
     //]]>
     </script>
     <script type="text/javascript" src="./js/dropdown.js">
-</script><!--[if IE 7]>    
+</script><!--[if IE 7]>
     <style type="text/css">
         ul.list-bottom{width:166px;}
     </style>
 <![endif]-->
-    <!--[if IE 8]>    
+    <!--[if IE 8]>
     <style type="text/css">
         #pager{margin:-69px 0px 0px 22px;}
-        </style>    
+        </style>
 <![endif]-->
     <meta charset="UTF-8" />
-
-    <title></title>
 </head>
 
 <body>
@@ -88,32 +90,32 @@
                     <li class="current"><a href="index.html"><img src="images-rut13/home.png" alt="" /></a></li>
 
                     <li>
-                        <a href="products-1.html">Products</a>
+                        <a href="./distributors/products-1.html">Products</a>
 
                         <ul>
                             <!-- <li><a href="#">Curly Hair</a></li> -->
 
-                            <li><a href="./amplifier.html">Amplifier</a></li>
+                            <li><a href="./distributors/amplifier.html">Amplifier</a></li>
 
-                            <li><a href="./amplifying-shampoo.html">Amplifying Shampoo</a></li>
+                            <li><a href="./distributors/amplifying-shampoo.html">Amplifying Shampoo</a></li>
 
-                            <li><a href="./amplifying-conditioner.html">Amplifying Conditioner</a></li>
+                            <li><a href="./distributors/amplifying-conditioner.html">Amplifying Conditioner</a></li>
 
-                            <li><a href="./hydrating-shampoo.html">Daily Hydrating Shampoo</a></li>
+                            <li><a href="./distributors/hydrating-shampoo.html">Daily Hydrating Shampoo</a></li>
 
-                            <li><a href="./hydrating-conditioner.html">Daily Hydrating Conditioner</a></li>
+                            <li><a href="./distributors/hydrating-conditioner.html">Daily Hydrating Conditioner</a></li>
 
-                            <li><a href="./leave-in-wearable-treatment.html">Leave-In Wearable Treatment</a></li>
+                            <li><a href="./distributors/leave-in-wearable-treatment.html">Leave-In Wearable Treatment</a></li>
 
-                            <li><a href="./optimum-root-lifter.html">Optimum Root Lifter</a></li>
+                            <li><a href="./distributors/optimum-root-lifter.html">Optimum Root Lifter</a></li>
 
-                            <li><a href="./pre-styling-tonic.html">Pre-styling Tonic</a></li>
+                            <li><a href="./distributors/pre-styling-tonic.html">Pre-styling Tonic</a></li>
 
-                            <li><a href="./sculpting-polisher.html">Sculpting Polisher</a></li>
+                            <li><a href="./distributors/sculpting-polisher.html">Sculpting Polisher</a></li>
 
-                            <li><a href="./straight-glaze.html">Straight Glaze</a></li>
+                            <li><a href="./distributors/straight-glaze.html">Straight Glaze</a></li>
 
-                            <li><a href="./stronghold-texturizer.html">Stronghold Texturizer</a></li>
+                            <li><a href="./distributors/stronghold-texturizer.html">Stronghold Texturizer</a></li>
                         </ul>
                     </li>
 
@@ -126,6 +128,8 @@
                     <li><a href="contact.html">Contact</a></li>
 
                     <li><a href="distributors.php">Distributors</a></li>
+
+                    <li><a href="./distributors.php?logout=1">Logout</a></li>
                 </ul>
             </div><!-- end of mainmenu -->
             <!-- begin of search -->
@@ -142,86 +146,33 @@
                 //]]>
                 </script>
             </div><!-- end of search -->
-        </div><!-- begin of welcome text -->
+        </div><!-- begin of slideshow -->
 
-        <div id="product-name">
-            <h1>Pre-Styling Tonic - <font color="#000">R</font><font color="#946436">.</font><font color="#000">U</font><font color="#946436">.</font><font color="#000">T</font><font color="#946436">.</font><font color="#000">13</font> Organic Hair Therapy</h1>
-        </div><!-- end of welcome text --><!-- END OF HEADER -->
-        <!-- BEGIN OF CONTENT -->
+        <div id="slideshow">
+            <ul>
+                <li class="slide-type1"><img src="./images-rut13/slide1.png" alt="slide1" /> <!--                    <h1>Elegant &amp; Simple</h1> -->
+                 <!--                        <h3>It's a Equator HTML Template</h3> --></li>
 
-        <div id="content">
-            <div class="maincontent-inner">
-                <!-- begin of content-left -->
+                <li class="slide-type2"><img src="images-rut13/slide2.jpg" alt="slide2" height="480" /> <span class="slidetext">Whether you're in the chair or behind the chair, use <font color="#000">R</font><font color="#946436">.</font><font color="#000">U</font><font color="#946436">.</font><font color="#000">T</font><font color="#946436">.</font><font color="#000">13</font> for professional organic hair therapy!</span></li>
 
-                <div id="content-left">
-                    <h3>Pre-Styling Tonic Natural and Organic</h3>
+                <li class="slide-type3"><img src="./images-rut13/slide3.jpg" alt="slide2" /> <!--                     <h1>Available on 5 Color</h1> -->
+                 <!-- <p>Nam libero tempore cum soluta nobis eligendi optio cumque nihil impedit quo minus id quo maxime placeat facere possimus, omnis volup assumenda omnis dolor repellendus temo ribus autem quibus dam aut officiis debitisa rerum necessitatibus saepe eveniet voluptat repudiandae sint et molestiae nore cusanda earum rerum hica tenetur sapiente delectus</p> -->
+                 <!--                     <span class="slide-button"><a class="button" href="#">Read more</a></span> --></li>
 
-                    <p>This must have pre-styling tonic shuts down cuticles, seals in moisture, proteins and active botanicals. Great for all hair types to smooth, repair and prepare hair for styling.</p><!-- begin of FAQ 1 -->
+                <li class="slide-type4"><img src="./images-rut13/slide4.jpg" alt="slide2" /></li>
+            </ul>
 
-                    <div class="ask">
-                        <h5>Pre-Styling Tonic</h5>
-                    </div>
-
-                    <div class="question">
-                        <p>This fortifying tonic balances pH by shutting down cuticles and sealing in moisture. Infused with Hemp Seed Oil containing all twenty known amino acids, Vitamins A, B, C, D & E, complete with Omega-3 & 6, excellent moisture source, anti-oxidant, rejuvenating properties and Rosemary stimulating hair follicles to promote hair growth with excellent conditioning properties working to soften hair. <font color="#000">R</font><font color="#946436">.</font><font color="#000">U</font><font color="#946436">.</font><font color="#000">T</font><font color="#946436">.</font><font color="#000">13</font> Pre-Styling Tonic is outstanding for all hair types.</p>
-                    </div><!-- end of FAQ 1 -->
-                    <!-- begin of FAQ 2 -->
-
-                    <div class="ask">
-                        <h5>Directions</h5>
-                    </div>
-
-                    <div class="question">
-                        <ul class="checklist">
-                            <li>Generously spray on to damp or dry hair before styling.</li>
-
-                            <li>Style hair as usual.</li>
-
-                            <li>Always use <font color="#000">R</font><font color="#946436">.</font><font color="#000">U</font><font color="#946436">.</font><font color="#000">T</font><font color="#946436">.</font><font color="#000">13</font> Pre-Styling Tonic before styling or anytime for a conditioning boost.</li>
-                        </ul>
-
-                        <div class="clr"></div>
-                    </div><!-- end of FAQ 2 -->
-                    <!-- begin of FAQ 3 -->
-
-                    <div class="ask">
-                        <h5>Ingredients</h5>
-                    </div>
-
-                    <div class="question">
-                        <img src="images-rut13/rosemary-hemp-seeds.png" alt="rosemary-hemp-seeds" width="280" height="165" />
-
-                        <h5>Key Ingredients:<br />
-                        Rosemary and Hemp Seed Oil</h5>
-
-                        <p>Aqua (Purified Water), Ethanol, Hemp Seed Oil, Rosemary, D,LPanthenol, Silk Protein, Wheat Protein, Cetrimonium Chloride, Cetyl Alcohol, Hydroxyethyl Cellulose, Glyceryl Stearate, PEG-150 Distearate, Dimethicone Copolyol, Propylene Glycol, Iodopropynyl Butylcarbamate, Diazolidinyl Urea, Parfum, Polysorbate-80, Citric Acid</p>
-                    </div><!-- end of FAQ 3 -->
-                    <!-- begin of FAQ 4 -->
-                </div><!-- end of content-left -->
-                <!-- begin of content-right -->
-
-                <div id="content-right">
-                    <div class="sidebar-box">
-                        <img src="images-rut13/pre-styling-tonic.png" alt="pre-styling-tonic" width="280" height="400" />
-
-                        <h3>Pre-Styling Tonic</h3>
-
-                        <p class="text-services"><font color="#000">R</font><font color="#946436">.</font><font color="#000">U</font><font color="#946436">.</font><font color="#000">T</font><font color="#946436">.</font><font color="#000">13</font> Hair Therapy products are sulphate-free, phthalate-free, salt-free, and paraben-free. Bringing out the best organic products available! Sold only in Professional Salons. Not Tested On Animals</p>
-
-                        <div class="faq-contact">
-                            <h5 class="left-heading">Size</h5>
-
-                            <h5 class="right-heading">: 9 oz / 266 ml</h5>
-
-                            <h5 class="left-heading">Price</h5>
-
-                            <h5 class="right-heading">: $19.00</h5><!-- <h5 class="left-heading">Email</h5> -->
-                            <!-- <h5 class="right-heading">: ask@equator.com</h5> -->
-                        </div>
-                    </div>
-                </div><!-- end of content-right -->
+            <div id="pager">
+                &nbsp;
             </div>
-        </div><!-- END OF CONTENT -->
+        </div>
+
+        <div id="shadow-noscript"></div><!-- end of slideshow -->
+        <!-- begin of welcome text -->
+
+        <div id="page-title">
+            <h1><font color="#000">R</font><font color="#946436">.</font><font color="#000">U</font><font color="#946436">.</font><font color="#000">T</font><font color="#946436">.</font><font color="#000">13</font> Organic Hair Therapy</h1>
+        </div><!-- end of welcome text --><!-- END OF HEADER -->
         <!-- BEGIN OF BOTTOM CONTENT -->
 
         <div id="bottom-content">
@@ -255,27 +206,27 @@
                     <ul class="list-bottom">
                         <!-- <li><a href="#">Curly Hair</a></li> -->
 
-                        <li><a href="./amplifier.html">Amplifier</a></li>
+                        <li><a href="./distributors/amplifier.html">Amplifier</a></li>
 
-                        <li><a href="./amplifying-shampoo.html">Amplifying Shampoo</a></li>
+                        <li><a href="./distributors/amplifying-shampoo.html">Amplifying Shampoo</a></li>
 
-                        <li><a href="./amplifying-conditioner.html">Amplifying Conditioner</a></li>
+                        <li><a href="./distributors/amplifying-conditioner.html">Amplifying Conditioner</a></li>
 
-                        <li><a href="./hydrating-shampoo.html">Daily Hydrating Shampoo</a></li>
+                        <li><a href="./distributors/hydrating-shampoo.html">Daily Hydrating Shampoo</a></li>
 
-                        <li><a href="./hydrating-conditioner.html">Daily Hydrating Conditioner</a></li>
+                        <li><a href="./distributors/hydrating-conditioner.html">Daily Hydrating Conditioner</a></li>
 
-                        <li><a href="./leave-in-wearable-treatment.html">Leave-In Wearable Treatment</a></li>
+                        <li><a href="./distributors/leave-in-wearable-treatment.html">Leave-In Wearable Treatment</a></li>
 
-                        <li><a href="./optimum-root-lifter.html">Optimum Root Lifter</a></li>
+                        <li><a href="./distributors/optimum-root-lifter.html">Optimum Root Lifter</a></li>
 
-                        <li><a href="./pre-styling-tonic.html">Pre-styling Tonic</a></li>
+                        <li><a href="./distributors/pre-styling-tonic.html">Pre-styling Tonic</a></li>
 
-                        <li><a href="./sculpting-polisher.html">Sculpting Polisher</a></li>
+                        <li><a href="./distributors/sculpting-polisher.html">Sculpting Polisher</a></li>
 
-                        <li><a href="./straight-glaze.html">Straight Glaze</a></li>
+                        <li><a href="./distributors/straight-glaze.html">Straight Glaze</a></li>
 
-                        <li><a href="./stronghold-texturizer.html">Stronghold Texturizer</a></li>
+                        <li><a href="./distributors/stronghold-texturizer.html">Stronghold Texturizer</a></li>
                     </ul>
                 </div>
 
@@ -290,7 +241,7 @@
                     <li><a href="#">Support Forum</a></li>
                     <li><a href="#">Themes</a></li>
                     <li><a href="#">Wordpress Blog</a></li>
-                    <li><a href="#">Wordpress Planet</a></li>       
+                    <li><a href="#">Wordpress Planet</a></li>
                 </ul>
 -->
                 </div>

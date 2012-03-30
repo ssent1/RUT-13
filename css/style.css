@@ -132,7 +132,7 @@ code {
 }
 
 .info {
-	background:url(http://themedemo.indonez.com/equator/images-rut13/info.png) no-repeat scroll 12px 9px #DCEFF5;
+	background:url(../images-rut13/info.png) no-repeat scroll 12px 9px #DCEFF5;
 	border:1px solid #B8E7F5;
 	color:#478BBF;
 	margin:15px 0;
@@ -164,7 +164,7 @@ code {
 }
 
 ul.arrow li {
-	background-image:url(http://themedemo.indonez.com/equator/images-rut13/list-general.gif);
+	background-image:url(../images-rut13/list-general.png);
 	background-position:0 center;
 	background-repeat:no-repeat;
 	line-height:24px;
@@ -925,7 +925,7 @@ ul.list-bottom {
 }
 
 ul.list-bottom li {
-	background-image:url(http://themedemo.indonez.com/equator/images-rut13/bottom-dot.png);
+	/* background-image:url(../images-rut13/bottom-dot.png); */
 	background-position:center bottom;
 	background-repeat:repeat-x;
 	line-height:24px;
@@ -1932,6 +1932,12 @@ ul.popular-list li a:hover {
 .item .caption .pf-title,.item-last .caption .pf-title {
 	font-size:17px;
 	margin:5px 0 15px
+}
+
+.item .caption .pf-title a,.item-last .caption .pf-title a {
+	font-size:17px;
+	margin:5px 0 15px;
+	text-align: left
 }
 
 .item .caption .pf-subtitle,.item-last .caption .pf-subtitle {
