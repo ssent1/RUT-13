@@ -3,6 +3,7 @@ echo "All information in the distributors section is confidential.";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -169,6 +170,7 @@ echo "All information in the distributors section is confidential.";
 
         <div id="shadow-noscript"></div><!-- end of slideshow -->
         <!-- begin of welcome text -->
+<script type="text/javascript" src="http://app.ecwid.com/script.js?1144014" charset="utf-8"></script>
 
         <div id="page-title">
             <h1><font color="#000">R</font><font color="#946436">.</font><font color="#000">U</font><font color="#946436">.</font><font color="#000">T</font><font color="#946436">.</font><font color="#000">13</font> Organic Hair Therapy</h1>
@@ -185,10 +187,10 @@ echo "All information in the distributors section is confidential.";
                     <h3>Pages</h3>
 
                     <ul class="list-bottom">
-                        <li>R.U.T. 13</li><!--                     <li><a href="#">Services</a></li> -->
+                        <li><a href="../rut-13.html"><font color="#000">R.U.T. 13</font></a></li><!--                     <li><a href="#">Services</a></li> -->
                         <!--                     <li><a href="#">Portfolio</a></li> -->
 
-                        <li><a href="#">FAQ</a></li>
+                        <!-- <li><a href="#">FAQ</a></li> -->
 
                         <li><a href="./testimonials.html">Testimonials</a></li>
 
@@ -249,13 +251,13 @@ echo "All information in the distributors section is confidential.";
                 <div class="box-list-content">
                     <!-- bottom content 4 -->
 
-                    <h3>About <font color="#000"><font color="#000"><font color="#000"><font color="#000">R.U.T. 13</font></font></font></font></h3>
+                    <h3>About <font color="#000">R.U.T. 13</font></h3>
 
-                    <p>At <font color="#000"><font color="#000"><font color="#000"><font color="#000">R.U.T. 13</font></font></font></font>, we love hair! Healthy, shiny, happy hair! Hair that makes you want to touch it. Hair that makes you smile. Hair that makes you stand taller. Hair that gives you the confidence to do anything! Hair is part of your unique beauty. We hope our products help you show your beauty everyday.</p>
+                    <p>At <font color="#000">R.U.T. 13</font>, we love hair! Healthy, shiny, happy hair! Hair that makes you want to touch it. Hair that makes you smile. Hair that makes you stand taller. Hair that gives you the confidence to do anything! Hair is part of your unique beauty. We hope our products help you show your beauty everyday.</p>
 
                     <p></p>
 
-                    <p>We think we've created what could possibly be the best hair care &ndash; ever! We asked our chemists to remove the junk. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therapy. You'll love <font color="#000"><font color="#000"><font color="#000"><font color="#000">R.U.T. 13</font></font></font></font> Organic Hair Therapy. We guarantee it.</p><!-- <h3 class="social-heading">Connect</h3> -->
+                    <p>We think we've created what could possibly be the best hair care &ndash; ever! We asked our chemists to remove the junk. No sulphates! No parabens! No phthalates! No junk! Period! What's left? Pure organic hair therapy. You'll love <font color="#000">R.U.T. 13</font> Organic Hair Therapy. We guarantee it.</p><!-- <h3 class="social-heading">Connect</h3> -->
                     <!-- <ul class="social-list"> -->
                     <!-- <li><a href="#" title="Subscribe our RSS" class="vtip"><img src="./images-rut13/rss.png" alt="" /></a></li> -->
                     <!-- <li><a href="#" title="Join our Facebook" class="vtip"><img src="./images-rut13/fb.png" alt="" /></a></li> -->
@@ -269,7 +271,7 @@ echo "All information in the distributors section is confidential.";
 
         <div id="bottom-content-closed">
             <div class="copyright-text">
-                Copyright &copy; 2011 <font color="#000"><font color="#000"><font color="#000"><font color="#000">R.U.T. 13</font></font></font></font>. All rights reserved
+                Copyright &copy; 2011 <font color="#000">R.U.T. 13</font>. All rights reserved
             </div>
 
             <div class="back-to-top">

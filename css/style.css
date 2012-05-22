@@ -683,6 +683,7 @@ p#vtip {
 }
 
 #content-right {
+	height: 725px;
 	float:left;
 	width:320px
 }
