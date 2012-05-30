@@ -1,7 +1,8 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <?php include("./php/password_protect.php"); ?><?php
 echo "All information in the distributors section is confidential.";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -11,8 +12,11 @@ echo "All information in the distributors section is confidential.";
     <title>Organic Hair Therapy | R.U.T. 13</title><!-- ////////////////////////////////// -->
     <!-- //      Start Stylesheets       // -->
     <!-- ////////////////////////////////// -->
+        <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./fonts/stylesheet.css" rel="stylesheet" type="text/css" />
     <link href="./css/noscript.css" rel="stylesheet" type="text/css" media="screen,all" id="noscript" /><!-- ////////////////////////////////// -->
     <!-- //      Javascript Files        // -->
     <!-- ////////////////////////////////// -->
@@ -21,9 +25,8 @@ echo "All information in the distributors section is confidential.";
 </script>
     <script type="text/javascript" src="./js/scroll.js">
 </script>
-    <script type="text/javascript" src="./js/cufon-yui.js">
-</script>
-    <script type="text/javascript" src="./js/century-gothic.font.js">
+    
+    
 </script>
     <script type="text/javascript">
 //<![CDATA[
@@ -64,6 +67,7 @@ echo "All information in the distributors section is confidential.";
         </style>
 <![endif]-->
     <meta charset="UTF-8" />
+
 </head>
 
 <body>
@@ -271,7 +275,7 @@ echo "All information in the distributors section is confidential.";
 
         <div id="bottom-content-closed">
             <div class="copyright-text">
-                Copyright &copy; 2011 <font color="#000">R.U.T. 13</font>. All rights reserved
+                                Copyright &copy; 2012 <font color="#000">R.U.T. 13</font>. All rights reserved.
             </div>
 
             <div class="back-to-top">

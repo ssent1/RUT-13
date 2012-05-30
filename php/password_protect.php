@@ -109,8 +109,11 @@ function showLoginPasswordProtect($error_msg) {
     <!-- ////////////////////////////////// -->
     <!-- //      Start Stylesheets       // -->
     <!-- ////////////////////////////////// -->
+        <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./fonts/stylesheet.css" rel="stylesheet" type="text/css" />
     <link href="./css/noscript.css" rel="stylesheet" type="text/css" media="screen,all" id="noscript" /><!-- ////////////////////////////////// -->
     <!-- //      Javascript Files        // -->
     <!-- ////////////////////////////////// -->
@@ -121,7 +124,7 @@ function showLoginPasswordProtect($error_msg) {
 </script>
     <script type="text/javascript" src="./js/cufon-yui.js">
 </script>
-    <script type="text/javascript" src="./js/century-gothic.font.js">
+    
 </script>
     <script type="text/javascript">
 //<![CDATA[
@@ -161,6 +164,7 @@ function showLoginPasswordProtect($error_msg) {
         #pager{margin:-69px 0px 0px 22px;}
         </style>    
 <![endif]-->
+
 </head>
 <body>
 
@@ -343,7 +347,7 @@ function showLoginPasswordProtect($error_msg) {
 
     <div id="bottom-content-closed">
         <div class="copyright-text">
-            Copyright &copy; 2011 <font color="#000">R.U.T. 13</font>. All rights reserved
+                            Copyright &copy; 2012 <font color="#000">R.U.T. 13</font>. All rights reserved.
         </div>
 
         <div class="back-to-top">
